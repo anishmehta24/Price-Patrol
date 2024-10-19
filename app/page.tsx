@@ -1,5 +1,7 @@
+import Hero from "@/components/Hero"
 import Searchbar from "@/components/Searchbar"
 import Image from "next/image"
+
 
 
 const Home= () => {
@@ -20,18 +22,18 @@ const Home= () => {
               </p>
 
                 <h1 className="head-text">
-                  Unleash the Power of <br />
+                  Unleash the Power of
                   <span className="text-primary"> PricePatrol</span>
                 
                 </h1>
-                <p className="mt-6"> 
+                <p className="mt-6  text-gray-500"> 
                    We helps you track prices, set alerts for discounts, and compare trends across multiple stores. Never miss a deal—get notified when prices drop and save money on your favorite products, all in one place.
                 </p>
 
                 <Searchbar/>
            </div>
 
-           Hero
+           <Hero/>
            {/* <div>
                 <Image 
                    src='/assets/images/hero-1.svg'
