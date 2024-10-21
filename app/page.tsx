@@ -10,24 +10,24 @@ const Home= () => {
      <section className="px-6 md:px-20 py-24 " >
         <div className="flex max-xl:flex-col gap-16">
            <div className=" flex flex-col justify-center"> 
-              <p className="small-text ">
-                 Smart Shopping Starts Here:
+              <p className="small-text">
+                 Smart Shopping Starts Here
                  <Image
                    src="/assets/icons/arrow-right.svg"
                    alt="arrow-right"
                    width={16}
                    height={16}
-                   className="cursor-pointer"
+                   className="cursor-pointer "
                  />
               </p>
 
                 <h1 className="head-text">
-                  Unleash the Power of
-                  <span className="text-primary"> PricePatrol</span>
-                
+                Discover Deals with 
+                <span className="text-primary"> PricePatrol</span>
                 </h1>
                 <p className="mt-6  text-gray-500"> 
-                   We helps you track prices, set alerts for discounts, and compare trends across multiple stores. Never miss a deal—get notified when prices drop and save money on your favorite products, all in one place.
+                Track product prices, set alerts for discounts, and never miss a drop.
+                PricePatrol helps you save on your favorite items by monitoring price trends across top stores.
                 </p>
 
                 <Searchbar/>
